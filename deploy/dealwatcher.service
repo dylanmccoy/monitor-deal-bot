@@ -1,0 +1,17 @@
+[Unit]
+Description=Monitor deal alerts to Discord
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=dylan
+WorkingDirectory=/home/dylan/projects/dylan/monitor-deal-bot
+EnvironmentFile=/home/dylan/projects/dylan/monitor-deal-bot/.env
+ExecStart=/home/dylan/projects/dylan/monitor-deal-bot/.venv/bin/python -u /home/dylan/projects/dylan/monitor-deal-bot/monitor_deals.py
+Restart=on-failure
+RestartSec=30
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

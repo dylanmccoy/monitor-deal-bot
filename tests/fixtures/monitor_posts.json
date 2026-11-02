@@ -1,0 +1,29 @@
+{
+  "data": {
+    "after": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "name": "t3_sample1",
+          "title": "[Monitor] Synthetic example 27 inch 1440p IPS 240 Hz - $199",
+          "link_flair_text": "Monitor",
+          "created_utc": 1793635200,
+          "permalink": "/r/buildapcsales/comments/sample1/synthetic_example/",
+          "url": "https://example.com/monitor"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "name": "t3_sample2",
+          "title": "[Monitor Arm] Synthetic example desk mount - $29",
+          "link_flair_text": "Monitor Arm",
+          "created_utc": 1793635100,
+          "permalink": "/r/buildapcsales/comments/sample2/synthetic_example/",
+          "url": "https://example.com/arm"
+        }
+      }
+    ]
+  }
+}
